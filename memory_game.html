@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+  <header>
+    <meta charset="utf-8">
+    <title>Memory Game</title>
+    <script src="memoryGame.js"></script>
+    <link rel="stylesheet" type="text/css" href="memoryGame.css">
+  </header>
+
+  <body onload="initial_cards(12)">
+
+    <div class="titulo ">
+      <h1> 記憶ゲーム </h1>
+    </div>
+
+    <div class="contadores">
+      <h3> TIME: </h3>
+      <h3 id = "tiempo"> 0</h3>
+
+     <h3> ATTEMPTS: </h3>
+     <h3 id = "intentos"> 0</h3>
+   </div>
+
+      <button type="button" onclick="restart()"> Restart </button>
+
+
+    </div>
+
+    <table id = "memoryGame">
+      <tr>
+        <td id = "f0" class="ficha hidden" >" > </td>
+        <td id = "f1" class="ficha hidden" >" > </td>
+        <td id = "f2" class="ficha hidden" >" > </td>
+        <td id = "f3" class="ficha hidden" >" > </td>
+      </tr>
+
+      <tr>
+        <td id = "f4" class="ficha hidden" >" > </td>
+        <td id = "f5" class="ficha hidden" >" > </td>
+        <td id = "f6" class="ficha hidden" >" > </td>
+        <td id = "f7" class="ficha hidden" >" > </td>
+      </tr>
+
+      <tr>
+        <td id = "f8" class="ficha hidden" >" > </td>
+        <td id = "f9" class="ficha hidden" >" > </td>
+        <td id = "f10" class="ficha hidden" >" > </td>
+        <td id = "f11" class="ficha hidden" >" > </td>
+      </tr>
+
+    </table>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,64 @@
+body {
+  background-image: url("./multimedia/fondo.jpg");
+  color: white; 
+  text-align: center; 
+  width: 100%;
+}
+
+table{
+  width:80%;
+  height: 450px;
+  border: 2px solid black;
+  border-collapse:collapse;
+  padding: 1%;
+  margin-left:10%;
+  margin-right:10%;
+  
+}
+
+.ficha{
+  background-color: white;
+  border: 2px solid black;
+  height: 150px;
+}
+
+.hidden {
+opacity: 0;
+}
+
+.trobada {
+  
+}
+
+
+h1 {
+  font-size:600%;
+  color:black;
+  border: 2px solid black;
+  border-collapse:collapse;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+h3 {
+  font-size:200%;
+  color:black;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.boton {
+  color:black;
+  size:100px;
+}
+
+.tiempo {
+  color:black;
+  size:100px;
+}
+
+.intentos {
+  color:black;
+  size:100px;
+}
+
